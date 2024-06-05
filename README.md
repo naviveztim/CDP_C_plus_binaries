@@ -30,21 +30,15 @@ Table 1. Training time and accuracy of **C++ implementation**. Results produced 
 	- Make sure that both files: **cdp_application.exe**, **cdp_method.dll** are in the same folder
 	- Run: 
 	```sh
-	**cdp_application_u** -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter_string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
+	cdp_application -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter_string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
 	```
-	- -train - path to txt train file path in format: Requires qutes. Ex. "C:\folder 1\foleer 2\train_file.txt"  
-	- -test - path to txt test file path in format: Requires qutes. Ex. "C:\folder 1\foleer 2\test_file.txt"
-	- -delimiter - delimiter used in txt or csv file 
-	- -compress_factor - applies averaging of input signal of every k samples
-	- -num_classifiers - number of decision trees. Principally, increased number leads better accuarcy. 
-	- -normalize true/false - apply z-score normalization to the train/test signals 
 
 - Linux: 
 	- Make sure that both files: **cdp_application_u**, **libcdp_methodlib.so** are in the same folder
 	- Type: "export LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH 
     - Run: 
 	```sh
-	**cdp_application_u** -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter_string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
+	cdp_application_u -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter_string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
 	```
 ### How to build my executable, based on CDP core library?
 cdp_project@outlook.com
