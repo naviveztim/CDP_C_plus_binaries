@@ -16,11 +16,11 @@
 
 Table 1. Training time and accuracy of **C++ implementation**. Results produced on: CPU: Intel-i7 @ 2.6GHz, RAM: 32GB, OS: Windows 11 
 
-| UCR Dataset  | Num. classes | Num. train samples | Num. test samples | Training time, [sec] | Accuracy, [%] | Compression rate | Num. decision trees | Normalize | 
+| UCR Dataset  | Num. classes | Num. train samples | Num. test samples | Training time, [sec] | Accuracy, [%] | compress_factor  | num_classifiers     | normalize | 
 |--------------|--------------|--------------------|-------------------|----------------------|---------------|------------------|---------------------|-----------|
-|   ADAC       |       37     |         390        |        391        |        12.7          |    76.5%      |        2         |    1000             |    No     |
-| Italy pd     |        2     |          67        |       1029        |         1.6          |    96.2%      |        2         |     500             |    No     |
-| MixedSRT     |        5     |        2425        |       1024        |        51.7          |    94.1%      |        4         |     500             |   Yes     |
+|   ADAC       |       37     |         390        |        391        |        12.7          |    76.5%      |        2         |    1000             |  false    |
+| Italy pd     |        2     |          67        |       1029        |         1.6          |    96.2%      |        2         |     500             |  false    |
+| MixedSRT     |        5     |        2425        |       1024        |        51.7          |    94.1%      |        4         |     500             |   true    |
 |              |              |                    |                   |                      |               |                  |                     |           |
 |              |              |                    |                   |                      |               |                  |                     |           |
 |              |              |                    |                   |                      |               |                  |                     |           |
