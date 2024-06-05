@@ -38,7 +38,7 @@ Table 1. Training time and accuracy of **C++ implementation**. Results produced 
 
 - Linux: 
 	- Make sure that both files: **cdp_application_u**, **libcdp_methodlib.so** are in the same folder
-	- Type: "export LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH"LD_LIBRARY_PATH=**libcdp_methodlib.so** 
+	- Type: "export LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH 
     - Run: cdp_application_u -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter__string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
 
 ### How to build my executable, based on CDP core library?
