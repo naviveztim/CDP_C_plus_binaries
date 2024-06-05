@@ -40,15 +40,11 @@ Table 1. Training time and accuracy of **C++ implementation**. Results produced 
   * Run: **cdp_application_u** -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter__string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
   
 
-### Build from source
-- Windows: Launch VS solution (.sln) and rebuild. Produces: cdp_application.exe, cdp_application.dll and cdp_application.lib
-- Linux: run 'make' at the root folder of the project. Produces: cdp_method_u and libcdp_methodlib.so
+### How to build my own executable, based on CDP core library?
+Ask at cdp_project@outlook.com
 
-### How to build my executable, based on CDP core library?
-cdp_project@outlook.com
-
-### Source code questions and inquiries: 
-cdp_project@outlook.com
+### C++ source code questions and inquiries: 
+Ask at cdp_project@outlook.com
 
 ### References: 
 
