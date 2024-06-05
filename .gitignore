@@ -31,3 +31,4 @@
 *.out
 *.app
 /.vs
+/cdp_method/Windows/cdp_method.lib
