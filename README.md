@@ -27,27 +27,25 @@ Table 1. Training time and accuracy of **C++ implementation**. Results produced 
 
 ### Usage
 - Windows: 
-  * Make sure that both files: cdp_application, cdp_method.dll are in the same folder
-  * Run: **cdp_application.exe** -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter__string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
-  
-	-train - path to txt train file path in format: Requires qutes. Ex. "C:\folder 1\foleer 2\train_file.txt"  
-	-test - path to txt test file path in format: Requires qutes. Ex. "C:\folder 1\foleer 2\test_file.txt"
-	-delimiter - delimiter used in txt or csv file 
-	-compress_factor - applies averaging of input signal of every k samples
-	-num_classifiers - number of decision trees. Principally, increased number leads better accuarcy. 
-	-normalize true/false - apply z-score normalization to the train/test signals 
+	- Make sure that both files: cdp_application.exe, cdp_method.dll are in the same folder
+	- Run: **cdp_application.exe** -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter__string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
+		- **-train - path to txt train file path in format: Requires qutes. Ex. "C:\folder 1\foleer 2\train_file.txt"  
+		- **-test - path to txt test file path in format: Requires qutes. Ex. "C:\folder 1\foleer 2\test_file.txt"
+		- **-delimiter - delimiter used in txt or csv file 
+		- **-compress_factor - applies averaging of input signal of every k samples
+		- **-num_classifiers - number of decision trees. Principally, increased number leads better accuarcy. 
+		- **-normalize true/false - apply z-score normalization to the train/test signals 
 
 - Linux: 
-  * Make sure that both files: cdp_application_u, libcdp_methodlib.so are in the same folder
-  * Type: "export LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH"
-  * Run: **cdp_application_u** -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter__string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
-  
+	- Make sure that both files: cdp_application_u, libcdp_methodlib.so are in the same folder
+	- Type: "export LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH"LD_LIBRARY_PATH=**libcdp_methodlib.so** **cdp_application_u** -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter__string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
+    - Run: cdp_application_u -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter__string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
 
-### How to build my own executable, based on CDP core library?
-Send request to cdp_project@outlook.com
+### How to build my executable, based on CDP core library?
+cdp_project@outlook.com
 
-### C++ source code questions and inquiries: 
-Send request to cdp_project@outlook.com
+### Source code questions and inquiries: 
+cdp_project@outlook.com
 
 ### References: 
 
