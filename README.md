@@ -28,7 +28,7 @@ Table 1. Training time and accuracy of **C++ implementation**. Results produced 
 ### Usage
 - Windows: 
   * Run: **cdp_application.exe** -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter__string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
-  * Where: 
+  
 		 -train - path to txt train file path in format: Requires qutes. Ex. "C:\folder 1\foleer 2\train_file.txt"  
 		 -test - path to txt test file path in format: Requires qutes. Ex. "C:\folder 1\foleer 2\test_file.txt"
 		 -delimiter - delimiter used in txt or csv file 
