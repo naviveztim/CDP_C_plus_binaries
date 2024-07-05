@@ -12,6 +12,11 @@
 - Very small (KB) models 
 - Very low memory and CPU usage 
 
+### Donate
+If you like this project, consider supporting me by donating.
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=E7U5FRCCUVNL6)
+
 ### Results
 
 Table 1. Training time and accuracy of **C++ implementation**. Results produced on: CPU: Intel-i7 @ 2.6GHz, RAM: 32GB, OS: Windows 11 
@@ -21,9 +26,8 @@ Table 1. Training time and accuracy of **C++ implementation**. Results produced 
 |   ADAC       |       37     |         390        |        391        |        12.7          |    76.5%      |        2        |    1000         |  false    |
 | Italy pd     |        2     |          67        |       1029        |         1.6          |    96.2%      |        2        |     500         |  false    |
 | MixedSRT     |        5     |        2425        |       1024        |        51.7          |    94.1%      |        4        |     500         |   true    |
-|              |              |                    |                   |                      |               |                 |                 |           |
-|              |              |                    |                   |                      |               |                 |                 |           |
-|              |              |                    |                   |                      |               |                 |                 |           |
+
+
 
 ### Usage
 - Windows: 
