@@ -28,7 +28,7 @@ If you like this project, consider supporting me by donating.
 
 ### Results
 
-Table 1. Training time and accuracy of **C++ implementation**. Results produced on: CPU: Intel-i7 @ 2.6GHz, RAM: 32GB, OS: Windows 11 
+Table 1. Training time and accuracy of **C++ implementation**. Results produced on: CPU: Intel-i7 @ 2.6GHz, RAM: 32GB, OS: Windows 11. Datasets taken from [UCR](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/) 
 
 | UCR Dataset  | Num. classes | Num. train samples | Num. test samples | Training time, [sec] | Accuracy, [%] | compress_factor | num_classifiers | normalize | 
 |--------------|--------------|--------------------|-------------------|----------------------|---------------|-----------------|-----------------|-----------|
