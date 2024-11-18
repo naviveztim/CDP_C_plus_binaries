@@ -1,6 +1,15 @@
 ##  C++ implementation of CDP (Concatenated Decisions Path) algorithm - fast and accurate algorithm for time series classification 
 
+This is a demo project for producing time series classification models.   
+It takes the training datasets as CSV file and produces fully working model in binary format (.bin), as well shows accuracy, if test dataset is provided.  
+Running binaries with no parameters will show available command line options.  
+Available command line options are: train dataset, test dataset, number of decision trees, normalization, compression, among others. 
+This is fully working code, although the number of allowed decision trees is limited to 100!  
+In order to achieve good accuracy the number of decision trees may vary from 50 up to 1000, depending on time series set (as shown in the table below).  
+To obtain unrestricted version of this project or the source code, please contact the author at: cdp_project@outlook.com. 
+
 ### Overview 
+ 
  CDP is a novel method for time-series classification using shapelets. The approach focuses on overcoming the limitations of traditional 
  shapelet-based methods, primarily their slow training times, while maintaining high accuracy. Proposed algorithm 
  involves training small decision trees and combining their decisions to form unique patterns for identifying time-series 
