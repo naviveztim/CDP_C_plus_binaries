@@ -1,5 +1,8 @@
 ##  C++ implementation of CDP (Concatenated Decisions Path) algorithm - fast and accurate algorithm for time series classification 
 
+<span style="color:red">**Note:** This version of CDP algorithm does not allow more than 100 classifiers!
+For full source code and non restricted version please visit cdp-project.com or e-mail at cdp_project@outlook.com</span>
+
 This is a demo project for producing time series classification models.   
 It takes the training datasets as CSV file and produces fully working model in binary format (.bin), as well shows accuracy, if test dataset is provided.  
 Running binaries with no parameters will show available command line options.  
@@ -62,12 +65,12 @@ cdp_project@outlook.com
 
 ### References: 
 
-“Concatenated Decision Paths Classification for Datasets with Small Number of Class Labels”, Ivan Mitzev and N.H. Younan, ICPRAM, Porto, Portugal, 24-26 February 2017
+ï¿½Concatenated Decision Paths Classification for Datasets with Small Number of Class Labelsï¿½, Ivan Mitzev and N.H. Younan, ICPRAM, Porto, Portugal, 24-26 February 2017
 
-“Concatenated Decision Paths Classification for Time Series Shapelets”, Ivan Mitzev and N.H. Younan, International journal for Instrumentation and Control Systems (IJICS), Vol. 6, No. 1, January 2016
+ï¿½Concatenated Decision Paths Classification for Time Series Shapeletsï¿½, Ivan Mitzev and N.H. Younan, International journal for Instrumentation and Control Systems (IJICS), Vol. 6, No. 1, January 2016
 
-“Combined Classifiers for Time Series Shapelets”, Ivan Mitzev and N.H. Younan, CS & IT-CSCP 2016 pp. 173–182, Zurich, Switzerland, January 2016
+ï¿½Combined Classifiers for Time Series Shapeletsï¿½, Ivan Mitzev and N.H. Younan, CS & IT-CSCP 2016 pp. 173ï¿½182, Zurich, Switzerland, January 2016
 
-“Time Series Shapelets: Training Time Improvement Based on Particle Swarm Optimization”, Ivan Mitzev and N.H. Younan, IJMLC 2015 Vol. 5(4): 283-287 ISSN: 2010-3700
+ï¿½Time Series Shapelets: Training Time Improvement Based on Particle Swarm Optimizationï¿½, Ivan Mitzev and N.H. Younan, IJMLC 2015 Vol. 5(4): 283-287 ISSN: 2010-3700
 
 
