@@ -1,7 +1,7 @@
 ##  C++ implementation of CDP (Concatenated Decisions Path) algorithm - fast and accurate algorithm for time series classification 
 
 <span style="color:red">**Note:** This version of CDP algorithm does not allow more than 10 classifiers!
-For full source code and non restricted version please visit cdp-project.com or e-mail at cdp_project@outlook.com</span>
+For full source code and non restricted version please visit cdp-project.com </span>
 
 This is a demo project for producing time series classification models.   
 It takes the training datasets as CSV file and produces fully working model in binary format (.bin), as well shows accuracy, if test dataset is provided.  
@@ -9,7 +9,7 @@ Running binaries with no parameters will show available command line options.
 Available command line options are: train dataset, test dataset, number of decision trees, normalization, compression, among others. 
 This is fully working code, although the number of allowed decision trees is limited to 10!  
 In order to achieve good accuracy the number of decision trees may vary from 50 up to 1000, depending on time series set (as shown in the table below).  
-To obtain unrestricted version of this project or the source code, please contact the author at: cdp_project@outlook.com. 
+To obtain unrestricted version of this project or the source code, please visit cdp-project.com 
 
 ### Overview 
  
@@ -57,11 +57,8 @@ Table 1. Training time and accuracy of **C++ implementation**. Results produced 
 	```sh
 	cdp_application_u -train <path_to_train_file> -test <path_to_test_file> -delimiter <delimiter_string> -compress_factor <number_of_samples_to_average> -num_classifiers <number_of_shapelets_classifiers> -normalize <true/false>
 	```
-### How to build my executable, based on CDP core library?
-cdp_project@outlook.com
-
 ### Source code questions and inquiries: 
-cdp_project@outlook.com
+cdp-project.com
 
 ### References: 
 
